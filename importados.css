@@ -15,7 +15,7 @@ body {
 /* --- Cabeçalho --- */
 header {
     /* Substitua a URL abaixo pela imagem de fundo dos carros do topo */
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.9)), url('caminho-para-imagem-de-fundo.jpg') center/cover;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.9)), url('volvozao.webp');
     height: 300px;
     position: relative;
     display: flex;
