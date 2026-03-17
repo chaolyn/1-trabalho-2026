@@ -1,0 +1,249 @@
+
+        
+body {
+background-color: black;
+}
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+       
+        .tche.tcho {
+            position: relative;
+            height: 100vh; 
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                        url('Exemplares-do-McLaren-Senna-reunidos-Foto-Divulgacao-.jpg') no-repeat center center/cover;
+        }
+
+       
+        .nav-links {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin-left: 15px;
+            font-weight: 300;
+        }
+
+        .nav-links span {
+            margin: 0 10px;
+            opacity: 0.5;
+        }
+
+        
+        .content h1 {
+            font-size: 5rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+            letter-spacing: -2px;
+        }
+
+        .content p {
+            font-size: 1.8rem;
+            font-weight: 300;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+       
+        @media (max-width: 768px) {
+            .content h1 { font-size: 3rem; }
+            .content p { font-size: 1.2rem; }
+            .nav-links { right: 20px; }
+        }
+
+
+    .h31 {
+        align-items: center;
+        text-align: center;
+        text-size-adjust: 20px;
+        background-color: grey;
+    }
+
+.container-galeria {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.grid-categorias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card-item {
+    position: relative;
+    height: 280px;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.card-item img, .banner-premium-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ccc; 
+}
+
+
+
+
+
+
+
+.tag-label {
+    
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    padding: 8px 25px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Times New Roman', serif;
+    font-size: 1.4rem;
+    white-space: nowrap;
+}
+
+.banner-premium-box {
+    position: relative;
+    height: 400px;
+    border-radius: 45px;
+    overflow: hidden;
+    border: 1px solid #c5a059;
+}
+
+.faixa-premium {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 25px 0;
+    text-align: center;
+}
+
+.faixa-premium h2 {
+    color: #fff;
+    font-family: 'Times New Roman', serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .grid-categorias {
+        grid-template-columns: 1fr;
+    }
+    .card-item { height: 220px; }
+    .banner-premium-box { height: 300px; }
+}
+
+
+.sobre-nos-section {
+    background-color: #000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('lamborghini-s-new-hybrid-v12.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.titulo-destaque {
+    color: #ffcc00;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-transform: lowercase;
+}
+
+.container-texto {
+    max-width: 650px;
+    margin: 0 auto;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0 40px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.container-texto p {
+    margin-bottom: 20px;
+}
+
+.subtitulo-internos {
+    font-weight: bold;
+    margin-top: 25px;
+    display: block;
+}
+
+.lista-caracteristicas {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.lista-caracteristicas li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.lista-caracteristicas li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .container-texto {
+        padding: 0 20px;
+        border-left: none;
+        border-right: none;
+        text-align: center;
+    }
+    
+    .lista-caracteristicas li {
+        padding-left: 0;
+    }
+    
+    .lista-caracteristicas li::before {
+        display: none;
+    }
+}
