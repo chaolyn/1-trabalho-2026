@@ -1,6 +1,3 @@
-/* =========================================
-   RESET E CONFIGURAÇÕES GERAIS
-   ========================================= */
 * {
     margin: 0;
     padding: 0;
@@ -8,23 +5,16 @@
 }
 
 body {
-    background-color: #050505; /* Fundo preto quase absoluto */
+    background-color: #050505;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
 
-/* =========================================
-   CABEÇALHO (HEADER)
-   ========================================= */
 header {
     position: relative;
     width: 100%;
-    
-    /* 1. Aumentamos bastante a altura para caber o carro todo. 
-       Você pode testar valores entre 450px e 550px para ver o que prefere. */
-    height: 500px; 
-    
+    height: 500px;
     background-image: 
         linear-gradient(to bottom, 
             rgba(5, 5, 5, 0.85) 0%, 
@@ -32,19 +22,14 @@ header {
             rgba(5, 5, 5, 0) 75%, 
             #050505 100%), 
         url('volvozao.webp'); 
-        
     background-size: cover;
-    
-    /* 2. Em vez de 'center bottom', focamos no centro, mas levemente puxado para baixo (70%).
-       Isso garante que o teto não corte em cima e as rodas não cortem embaixo. */
     background-position: center 70%; 
-    
     border-bottom: 1px solid #2a2a2a;
 }
 
 .btn-voltar {
     position: absolute;
-    top: 25px; /* Ajustei levemente para a nova altura */
+    top: 25px;
     left: 30px;
     color: #b0b0b0;
     text-decoration: none;
@@ -68,7 +53,7 @@ header h1 {
 
 header p {
     position: absolute;
-    bottom: 25px; /* Subi um pouco para não ficar tão colado na borda */
+    bottom: 25px;
     left: 50%;
     transform: translateX(-50%); 
     font-size: 0.95rem;
@@ -78,46 +63,36 @@ header p {
     z-index: 10;
 }
 
-/* =========================================
-   SEÇÕES DOS CARROS (MAIN E CAROUSEL)
-   ========================================= */
 main {
     width: 100%;
 }
 
 .car-carousel {
     padding: 30px 20px;
-    border-bottom: 1px solid #2a2a2a; /* Linha separadora entre as marcas */
+    border-bottom: 1px solid #2a2a2a;
 }
 
-/* Remove a linha da última seção */
 .car-carousel:last-child {
     border-bottom: none;
 }
 
-/* =========================================
-   BOTÕES DE FILTRO (BMW, sedan, SUV...)
-   ========================================= */
 .filters {
     display: flex;
     gap: 15px;
     margin-bottom: 20px;
-    padding-left: 5%; /* Alinha com o início das fotos */
+    padding-left: 5%;
 }
 
 .filters button {
     background-color: transparent;
     color: #aaa;
-    border: 1px solid #444; /* Borda cinza visível na imagem */
+    border: 1px solid #444;
     padding: 3px 15px;
     font-size: 0.75rem;
     cursor: pointer;
     text-transform: lowercase;
 }
 
-/* =========================================
-   TRILHO DO CARROSSEL E SETAS
-   ========================================= */
 .carousel-container {
     display: flex;
     align-items: center;
@@ -147,27 +122,24 @@ main {
     justify-content: space-between;
 }
 
-/* =========================================
-   CARDS DOS CARROS (Moldura Cinza)
-   ========================================= */
 .car-card {
-    background-color: #9e9e9e; /* O fundo cinza característico da imagem */
-    padding: 6px; /* Borda ao redor da imagem */
-    padding-bottom: 12px; /* Espaço maior embaixo para o texto */
-    width: calc(33.33% - 15px); /* Divide em 3 colunas perfeitamente */
+    background-color: #9e9e9e;
+    padding: 6px;
+    padding-bottom: 12px;
+    width: calc(33.33% - 15px);
     display: flex;
     flex-direction: column;
 }
 
 .car-card img {
     width: 100%;
-    aspect-ratio: 16 / 10; /* Mantém a proporção retangular das fotos */
+    aspect-ratio: 16 / 10;
     object-fit: cover;
     display: block;
 }
 
 .car-card p {
-    color: #111; /* Texto escuro dentro da caixa cinza */
+    color: #111;
     font-size: 0.75rem;
     font-weight: 600;
     margin-top: 5px;
