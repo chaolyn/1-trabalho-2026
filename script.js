@@ -61,7 +61,7 @@ Valor: ${precoFormatado}
 Um de nossos consultores especializados entrará em contato 
 com você via e-mail nas próximas 2 horas para finalizar o processo.
 
-Obrigado por escolher a Auto Elite!`
+Obrigado por escolher a Redline motors, onde a excelência é nossa paixão! 🚗💨`
         );
 
         // FEEDBACK VISUAL DE SUCESSO
