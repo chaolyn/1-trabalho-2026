@@ -71,24 +71,27 @@ main {
     display: flex;
     width: 100%;
     min-height: 400px;
+    background-color: #000;
 }
 
 .caixa-texto {
-    width: 30%;
-    background-color: #120916;
+    width: 30.5%;
+    background-color: #1a0b1e;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .titulo-carro {
     background-color: #a67c00;
-    width: 100%;
-    padding: 10px 20px;
+    width: calc(100% + 20px); 
+    padding: 8px 25px;
+    margin-top: 0;
 }
 
 .titulo-carro h1 {
     font-family: "Times New Roman", Times, serif;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: normal;
     color: #fff;
     margin: 0;
@@ -96,18 +99,24 @@ main {
 }
 
 .descricao-carro {
-    padding: 30px 25px;
+    padding: 40px 30px;
 }
 
 .descricao-carro p {
-    font-size: 1.1rem;
-    line-height: 1.5;
-    color: #e0e0e0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #fff;
     text-align: left;
+    font-weight: 300;
+}
+
+.divisor-branco {
+    width: 4px;
+    background-color: #fff;
 }
 
 .caixa-imagem {
-    width: 70%;
+    width: 69.5%;
 }
 
 .caixa-imagem img {
@@ -126,8 +135,10 @@ main {
     .detalhes-mclaren {
         flex-direction: column;
     }
-    .caixa-texto, .caixa-imagem {
+    .caixa-texto, .caixa-imagem, .divisor-branco {
         width: 100%;
     }
+    .divisor-branco { height: 4px; }
     header { height: 300px; }
+    .titulo-carro { width: 100%; }
 }
