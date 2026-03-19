@@ -62,3 +62,16 @@ header p {
     font-style: italic; 
     z-index: 10;
 }
+
+.carros  h1 {
+    text-align: start;
+    text-decoration: whitesmoke;
+    background-color: goldenrod;
+    background-size: auto;
+    
+}
+
+.carros img {
+    align-items: end;
+    border: goldenrod;
+}
