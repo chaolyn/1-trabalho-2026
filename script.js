@@ -59,4 +59,4 @@ Obrigado por escolher a Redline motors, onde a excelência é nossa paixão! �
         
         console.log(`[SISTEMA] Proposta para ${nomeCarro} enviada com sucesso!`);
 
-    }, 1800); 
+    }, 1800); }
