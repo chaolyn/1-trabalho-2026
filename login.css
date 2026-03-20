@@ -1,13 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
-    background-color: bisque;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('fotolog.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+
+.login-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: white; /
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.login-box h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-field label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.input-field input {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+}
+
+.btn-entrar {
+    width: 100%;
+    padding: 12px;
+    background-color: #e63946; 
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-entrar:hover {
+    background-color: #d62828;
+}
+
+.footer-text {
+    margin-top: 25px;
+    font-size: 0.9rem;
+}
+
+.footer-text a {
+    color: #e63946;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
 }
