@@ -1,0 +1,6 @@
+esse site foi contruido do 0 por mim, wendel, ao longo de 2 semanas, toda a estrutura do código foram criadas por mim, 
+foi utilizado IA (gemini) como suporte técnico, principalmente na parte de correção de bugs na parte do html e css
+e na criação do javascript, e para uma revisão final antes de dizer "terminei", pensei em adicionar funcionalidades mais
+"pesadas" no código, como aquela ideia de visualização dos carros em forma 3D de quando passa o mouse em cima,
+porém optei por não fazer, pois, a IA iria criar tudo sozinha, pois seria um código complexo que não domino, e seria injusto com o pessoal da sala também.
+a IA foi utilizada como fin de aprendizado e correção de códigos que ficaria horas tentando concertar.
