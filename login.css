@@ -1,4 +1,4 @@
-/* Um reset básico pra tirar as margens zoadas que o navegador coloca por padrão */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    /* O jeito certo de escurecer a imagem: colocar um gradiente escuro por cima dela */
+    
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('fotolog.jpg');
     background-size: cover;
     background-position: center;
@@ -19,10 +19,10 @@ body {
     align-items: center;
 }
 
-/* O efeito Glassmorphism bruto */
+
 .login-box {
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(12px); /* Efeito de vidro embaçado */
+    backdrop-filter: blur(12px); 
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 15px;
@@ -30,7 +30,7 @@ body {
     width: 100%;
     max-width: 400px;
     text-align: center;
-    color: white; /* Fonte branca pra contrastar com o fundo escuro */
+    color: white; 
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -70,7 +70,7 @@ body {
 .btn-entrar {
     width: 100%;
     padding: 12px;
-    background-color: #e63946; /* Um vermelho esportivo pra dar destaque */
+    background-color: #e63946;
     color: white;
     border: none;
     border-radius: 8px;
